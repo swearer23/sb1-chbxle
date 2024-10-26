@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Feed Scraper</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    button {
+      padding: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <button id="toggleScraping">Start Scraping</button>
+    <button id="downloadData">Download Data</button>
+    <div id="status"></div>
+  </div>
+  <script src="dist/popup.js"></script>
+</body>
+</html>
